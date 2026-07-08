@@ -7,76 +7,58 @@ import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
-    title: "MiroFish",
+    title: "Sort AI",
     description:
-      "A simple and universal Swarm Intelligence Engine capable of predicting anything. Leverages collective behavior algorithms for powerful forecasting.",
-    stack: ["Python", "Swarm Intelligence", "ML"],
-    github: "https://github.com/UDAYKIRANHARI/MiroFish",
+      "Built an AI-driven tool that automates workflows and organises tasks by integrating a large language model with backend logic. Tested prototypes with real usage, evaluated model outputs, and iterated on prompts based on observed failure cases.",
+    stack: ["Python", "Gemini API", "Firebase", "Automation"],
+    github: "https://github.com/UDAYKIRANHARI/sortai-smart-link-spaces",
     link: "#",
     number: "01",
   },
   {
-    title: "ConsentGate MVP",
+    title: "Destiny",
     description:
-      "AI-powered upload compliance gateway validating user authorization and consent using multi-frame AI face detection and JWT approval tokens.",
-    stack: ["Python 3.11", "FastAPI", "OpenCV", "JWT"],
-    github: "https://github.com/UDAYKIRANHARI/consentgate-mvp",
+      "Built an AI companion application combining structured prompts with deterministic logic to support user decision making. Refined prompt design and system behaviour through repeated testing and evaluation of model responses.",
+    stack: ["Python", "Gemini API", "Flutter", "Dart"],
+    github: "https://github.com/UDAYKIRANHARI/destiny",
     link: "#",
     number: "02",
   },
   {
     title: "RAG PDF Assistant",
     description:
-      "Intelligent PDF Q&A using Retrieval-Augmented Generation. Upload multiple PDFs, ask natural language questions, and get accurate answers with source citations.",
-    stack: ["Python", "LangChain", "FAISS", "LLM"],
+      "Built a retrieval augmented generation pipeline for document question answering, including ingestion, chunking, and vector search. Improved retrieval accuracy from 65% to 92% through systematic prompt and embedding iteration.",
+    stack: ["Python", "FastAPI", "FAISS", "OpenAI API", "Groq"],
     github: "https://github.com/UDAYKIRANHARI/rag-pdf-assistant",
     link: "#",
     number: "03",
   },
   {
-    title: "SortAI – Smart Link Spaces",
+    title: "MiroFish Multi Agent Engine",
     description:
-      "AI-powered bookmark/link organizer classifying and sorting URLs into smart categorized spaces using Gemini AI, React, Firebase, and Cloud Run.",
-    stack: ["TypeScript", "React", "Firebase", "Gemini API"],
-    github: "https://github.com/UDAYKIRANHARI/sortai-smart-link-spaces",
+      "Built a multi-agent pipeline where agents with persistent memory produce structured, ranked recommendations. Researched and applied emerging multi-agent design patterns, then translated findings into a working, documented system.",
+    stack: ["Python", "Node.js", "React", "GraphRAG", "LLMs"],
+    github: "https://github.com/UDAYKIRANHARI/MiroFish",
     link: "#",
     number: "04",
   },
   {
-    title: "Automated Shorts Factory",
+    title: "ConsentGate",
     description:
-      "AI-powered video content pipeline generating daily animated comedy shorts using Google Gemini AI for scripting and FFmpeg for video production.",
-    stack: ["Python", "Gemini API", "FFmpeg"],
-    github: "https://github.com/UDAYKIRANHARI/automated-shorts-factory",
+      "Built a stateless service using a five-stage sequential validation pipeline with structured outputs. Prioritised reliability and clear documentation so the system could be trusted and extended by others.",
+    stack: ["Python", "FastAPI", "OpenCV", "JWT"],
+    github: "https://github.com/UDAYKIRANHARI/consentgate-mvp",
     link: "#",
     number: "05",
   },
   {
-    title: "Destiny",
+    title: "Automated Shorts Factory",
     description:
-      "AI-Powered Decision Making App built with Flutter. Helps users make informed choices using intelligent analysis and personalized recommendations.",
-    stack: ["Dart", "Flutter", "AI"],
-    github: "https://github.com/UDAYKIRANHARI/destiny",
+      "Engineered an automated video content pipeline integrating large language models for script generation and FFmpeg for deterministic video rendering and assembly. Optimised for reliability and hands-off execution.",
+    stack: ["Python", "Gemini API", "FFmpeg"],
+    github: "https://github.com/UDAYKIRANHARI/automated-shorts-factory",
     link: "#",
     number: "06",
-  },
-  {
-    title: "MovieLink",
-    description:
-      "A LinkedIn-for-movies platform — full-stack social network for film enthusiasts with React + TypeScript frontend and NestJS backend.",
-    stack: ["React", "TypeScript", "NestJS", "Vite"],
-    github: "https://github.com/UDAYKIRANHARI/movielink-frontend",
-    link: "#",
-    number: "07",
-  },
-  {
-    title: "ML FastAPI Iris",
-    description:
-      "Production-ready ML REST API with FastAPI for Iris flower classification. Includes interactive UI and comprehensive API documentation.",
-    stack: ["Python", "FastAPI", "scikit-learn", "ML"],
-    github: "https://github.com/UDAYKIRANHARI/ml-fastapi-iris",
-    link: "#",
-    number: "08",
   },
 ];
 

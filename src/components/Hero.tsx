@@ -104,9 +104,17 @@ export default function Hero() {
             View Projects
             <ArrowRight className="w-4 h-4" />
           </Link>
+          <a
+            href="/resume.pdf"
+            download="Uday_Kiran_Hari_Resume.pdf"
+            className="inline-flex items-center gap-2 font-[Outfit] font-bold text-base px-8 py-3.5 rounded-full transition-all duration-300 glass-card hover:bg-[rgba(0,71,255,0.05)] hover:border-[rgba(0,229,255,0.3)] hover:text-accent-primary"
+            style={{ color: "var(--color-text-main)" }}
+          >
+            Download Resume
+          </a>
           <Link
             href="#contact"
-            className="inline-flex items-center gap-2 font-[Outfit] font-semibold text-base px-8 py-3.5 rounded-full transition-all duration-300 shadow-sm hover:shadow-md glass-card"
+            className="inline-flex items-center gap-2 font-[Outfit] font-bold text-base px-8 py-3.5 rounded-full transition-all duration-300 glass-card hover:bg-[rgba(0,71,255,0.05)] hover:border-[rgba(0,229,255,0.3)] hover:text-accent-primary"
             style={{ color: "var(--color-text-main)" }}
           >
             Contact Me

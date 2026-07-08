@@ -7,35 +7,43 @@ import { Briefcase, GraduationCap } from "lucide-react";
 const experience = [
   {
     type: "work",
-    title: "Founder",
-    company: "HTK Studio",
-    date: "Present",
+    title: "Freelance Software Developer",
+    company: "AI Prototyping and Automation",
+    date: "2025 to Present",
     description:
-      "Personal agency specializing in product ads, landing pages, and UGC content.",
+      "Built and tested prototypes using large language models. Evaluated model outputs for quality and reliability, and automated repetitive workflows using Python and API integrations.",
   },
   {
     type: "work",
-    title: "Freelance AI Developer",
-    company: "Self-Employed",
-    date: "Present",
+    title: "Open Source Contributor",
+    company: "Home Assistant Core",
+    date: "2025",
     description:
-      "Building API integrations and automation pipelines using Make.com and LLM tools for diverse clients.",
+      "Contributed to a large, production grade Python codebase with over 70,000 GitHub stars, following strict typing, CI standards, and established code review practices.",
+  },
+  {
+    type: "work",
+    title: "Video Editor Intern",
+    company: "ARVFE Digital Media Agency",
+    date: "Jun 2024 to Aug 2024",
+    description:
+      "Delivered client work to tight deadlines in a distributed team. Worked asynchronously across time zones, translating loosely defined briefs into finished, reviewable outputs.",
   },
   {
     type: "education",
     title: "MSc Software Engineering",
-    company: "Blekinge Tekniska Högskola (BTH), Sweden",
-    date: "Current",
+    company: "Blekinge Institute of Technology, Sweden",
+    date: "Expected Jun 2026",
     description:
-      "Focusing on software engineering practices, multi-agent orchestration, and AI-first systems.",
+      "Master of Science in Software Engineering.",
   },
   {
-    type: "work",
-    title: "Data Annotation & Evaluation",
-    company: "Scale AI, UserTesting, RemoteTask",
-    date: "Past",
+    type: "education",
+    title: "B.Tech Computer Science",
+    company: "Jawaharlal Nehru Technological University, India",
+    date: "2021 to 2024",
     description:
-      "Contributed to AI model training and user experience evaluation.",
+      "Bachelor of Technology in Computer Science.",
   },
 ];
 
